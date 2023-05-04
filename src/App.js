@@ -24,6 +24,8 @@ function App() {
       <button onChange={nextjoke} value={joke}>
         Next joke!
       </button>
+
+      <div>Prueba de cambios</div>
     </>
   );
 }
