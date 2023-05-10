@@ -7,6 +7,7 @@ import Content from "./Content";
 function App() {
   return (
     <>
+    <meta name="viewport" content="initial-scale=1, width=device-width" />
       {/* Controller es como se llama la función exportada que hay dentro del contexto */}
       {/* <Data> */}
       <div className="banderas">
