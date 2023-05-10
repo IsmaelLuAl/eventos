@@ -33,7 +33,8 @@ const valores = [
       idioma: 0
    }
 ]
-export const Controller = function({ children }) {
+
+const Controller = function({ children }) {
 
    const[alumno, setAlumno] = useState(valores);
 
