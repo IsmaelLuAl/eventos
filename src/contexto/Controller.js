@@ -1,4 +1,4 @@
-import { createContext, useState } from "react";
+import { useState } from "react";
 import Contexto2 from "./Contexto2";
 
 const valores = [
