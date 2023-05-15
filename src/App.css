@@ -1,5 +1,34 @@
+/*************************** Ejercicio Reyes Rutas ******************************************/
+.reyes img{
+  width: 30%;
+  margin-bottom: 25px;
+}
+
+nav {
+  background-color: silver;
+  display: flex;
+  justify-content: space-evenly;
+  margin-bottom: 30px;
+}
+
+a{
+  text-decoration: none;
+  font-size: 1em;
+  padding: 7px 10px 12px;
+  color: black;
+}
+
+.activo{
+  background-color: black;
+  color: white;
+}
+
+div{
+  text-align: center;
+}
+
 /*************************** Ejercicio React Router DOM ******************************************/
-div {
+/* div {
   font-size: 3em;
 }
 
@@ -14,9 +43,7 @@ a{
 .activado {
   color: gold;
   background-color: darkmagenta;
-}
-
-
+} */
 
 /*************************** Ejercicio Profesoras con CONTEXT ******************************************/
 /* .botones {

@@ -1,26 +1,23 @@
+import { BrowserRouter, NavLink, Navigate, Route, Routes } from "react-router-dom";
 import "./App.css";
 import React from "react";
-import Nav from "./componentes/Nav";
-import { BrowserRouter, Navigate, Route, Routes } from "react-router-dom";
-import A from "./paginas/A";
-import B from "./paginas/B";
-import C from "./paginas/C";
+import NavReyes from "./componentes/NavReyes";
 import Error404 from "./paginas/Error404";
-import D from "./paginas/D";
+import Home from "./reyes/Home";
+import ModeloRey from "./reyes/ModeloRey";
+
 
 function App() {
   return (
-      <BrowserRouter>
-      <Nav />
-        <Routes>
-          <Route path="/" element={<A />}></Route>
-          <Route path="/pagina1" element={<Navigate to = "/" />}></Route>
-          <Route path="/pagina2" element={<B />}></Route>
-          <Route path="/pagina3" element={<C />}></Route>
-          <Route path="/pagina4/:letra" element={<D />}></Route>
-          <Route path="*" element={<Error404 />}></Route>
-        </Routes>
-      </BrowserRouter>
+    <BrowserRouter>
+    {/* Este es el componente de la barra de navegación */}
+    <NavReyes />
+      <Routes>
+        <Route path = "/" element = {<Home />}/>
+        <Route path = "/reyes/:rey" element = {<ModeloRey/>}/>
+        <Route path = "/*" element = {<Error404/>}/>
+      </Routes>
+    </BrowserRouter>
   );
 }
 
