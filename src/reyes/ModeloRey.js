@@ -8,7 +8,7 @@ function ModeloRey() {
 
    return (
       <div>
-         <img src = {`https://www.html6.es/img/rey_${rey}.png`} />
+         <img alt = "" src = {`https://www.html6.es/img/rey_${rey}.png`} />
          <h1>{reyCompleto}</h1>
       </div>
    )

@@ -9,7 +9,7 @@ function Home() {
       <div className='reyes'>
          {
             lista.map(unRey => 
-               <Link to = {`/reyes/${unRey}`}><img src = {`https://www.html6.es/img/rey_${unRey}.png`}></img></Link>)
+               <Link to = {`/reyes/${unRey}`}><img alt = "" src = {`https://www.html6.es/img/rey_${unRey}.png`}></img></Link>)
          }
          
       </div>
